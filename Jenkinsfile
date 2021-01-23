@@ -14,7 +14,12 @@ pipeline {
             sleep 10
           }
         }
-
+        
+        stage('hogehgoe3') {
+          steps {
+            sh 'cccccc';
+          }
+        }
       }
     }
 
@@ -23,6 +28,5 @@ pipeline {
         sh 'echo \'Finished!\';'
       }
     }
-
   }
 }
