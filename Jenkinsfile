@@ -20,6 +20,12 @@ pipeline {
             sh 'cccccc';
           }
         }
+
+        stage('hogehgoe4') {
+          steps {
+            sh 'ddddd';
+          }
+        }
       }
     }
 
